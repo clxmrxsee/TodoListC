@@ -1,6 +1,10 @@
 #include <stdio.h>
 
+#include "commands/commands.h"
+
 int main(void) {
-    printf("Hello, World!\n");
+
+    commands_manager();
+
     return 0;
 }

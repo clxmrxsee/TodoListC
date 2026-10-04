@@ -7,6 +7,10 @@ add_executable(TodoList main.c
         main.c
         data/database.c
         sqlite/sqlite3.c
+        commands/commands.c
+        commands/commands.h
+        commands/add.c
+        commands/add.h
 )
 
 target_include_directories(TodoList PRIVATE
